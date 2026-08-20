@@ -4,15 +4,8 @@
 # define PROFILE_H
 
 /* ************************************************************************** */
-/*                                   Profile                                  */
+/*                                    Focus                                   */
 /* ************************************************************************** */
-
-typedef enum e_focus
-{
-	SECURITY_RESEARCH,
-	APPLIED_AI,
-	DATA_ENGINEERING,
-}	t_focus;
 
 typedef struct s_profile
 {
@@ -27,7 +20,7 @@ static const t_profile	me =
 {
 	.name = "Mikel Garrido",
 	.school = "Computer Science @ 42 Barcelona",
-	.languages = "C / C++ / Python",
+	.languages = "C / C++ / Python / Bash",
 	.looking_for = "Internship or junior role",
 	.focus = "Cybersecurity research, applied AI and data"
 };
@@ -54,14 +47,13 @@ static const char	*about[] =
 static const char	*background[] =
 {
 	"Hackerman achievement at 42: found and responsibly reported",
-	"a privilege escalation that exposed access to /etc/shadow.",
+	"a privilege escalation that gave me access to root.",
 	"",
-	"Cybersecurity instructor (CTF workshops), generative AI developer",
-	"with LoRA fine-tuning, data technician, data analyst intern and",
-	"web systems technician.",
+	"Cybersecurity instructor, generative AI developer with LoRA fine-tuning,"
+	"encryption data technician, data analyst intern"
 	"",
-	"Before 42 I studied at the University of Barcelona, where I also",
-	"taught and later helped coordinate a project with more than 70 people.",
+	"Before 42 I got my degree at the University of Barcelona, where I also",
+	"taught years later.",
 	NULL
 };
 
