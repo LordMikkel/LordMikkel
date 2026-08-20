@@ -1,18 +1,11 @@
 ```c
-/* ************************************************************************** */
-/*                                                                            */
-/*   profile.h                                                                */
-/*                                                                            */
-/*   By: Mikel Garrido <@LordMikkel>                                          */
-/*                                                                            */
-/* ************************************************************************** */
 
 #ifndef PROFILE_H
 # define PROFILE_H
 
-/*
-** RESUME
-*/
+/* ************************************************************************** */
+/*                                   Profile                                  */
+/* ************************************************************************** */
 
 typedef enum e_focus
 {
@@ -39,9 +32,10 @@ static const t_profile	me =
 	.focus = "Cybersecurity research, applied AI and data"
 };
 
-/*
-** SHORT BIO
-*/
+/* ************************************************************************** */
+/*                                   About                                    */
+/* ************************************************************************** */
+
 static const char	*about[] =
 {
 	"I am a 42 Barcelona student interested in security, AI and data.",
@@ -53,10 +47,10 @@ static const char	*about[] =
 };
 
 
-/*
-** ARCHIVEMENTS
-**
-*/
+/* ************************************************************************** */
+/*                                   Achievements                             */
+/* ************************************************************************** */
+
 static const char	*background[] =
 {
 	"Hackerman achievement at 42: found and responsibly reported",
@@ -70,16 +64,6 @@ static const char	*background[] =
 	"taught and later helped coordinate a project with more than 70 people.",
 	NULL
 };
-
-
-static const char	*languages[] =
-{
-	"Spanish: native",
-	"English: professional",
-	"German: elementary",
-	NULL
-};
-
 
 #endif
 ```
