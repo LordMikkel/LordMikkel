@@ -1,5 +1,5 @@
 
-# Mikel Garrido ([@LordMikkel](https://github.com/LordMikkel))
+# `mikel_garrido.c`
 
 ```c
 
