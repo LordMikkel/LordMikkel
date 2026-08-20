@@ -1,5 +1,5 @@
 
-# `mikel_garrido.c`
+# `mikel_garrido.h`
 
 ```c
 
@@ -32,24 +32,6 @@ static const char	*about[] =
 	"testing edge cases and writing down what I understood.",
 	"My background is practical: C projects, open source, data workflows,",
 	"custom AI models and technical workshops.",
-	NULL
-};
-
-
-/* ************************************************************************** */
-/*                                   Achievements                             */
-/* ************************************************************************** */
-
-static const char	*background[] =
-{
-	"Hackerman achievement at 42: found and responsibly reported",
-	"a privilege escalation that gave me access to root.",
-	"",
-	"Cybersecurity instructor, generative AI developer with LoRA fine-tuning,"
-	"encryption data technician, data analyst intern"
-	"",
-	"Before 42 I got my degree at the University of Barcelona, where I also",
-	"taught years later.",
 	NULL
 };
 
