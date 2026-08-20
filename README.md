@@ -115,11 +115,3 @@ static const char	*languages[] =
 
 #endif
 ```
-
-**Links**
-
-[Session PR](https://github.com/session-foundation/session-desktop/pull/1764) · [Cub3D](https://github.com/LordMikkel/Cub3d) · [FdF](https://github.com/LordMikkel/Fdf) · [Minishell](https://github.com/LordMikkel/Minishell) · [Code review tricks](https://github.com/LordMikkel/code-reviews-tricks)
-
-**Contact**
-
-GitHub: [@LordMikkel](https://github.com/LordMikkel) · LinkedIn: [Mikel Garrido](https://linkedin.com/in/mikelgarrido)
