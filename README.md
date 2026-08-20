@@ -6,18 +6,11 @@
 #ifndef PROFILE_H
 # define PROFILE_H
 
+# include "structs_data.h"
+
 /* ************************************************************************** */
 /*                                    Focus                                   */
 /* ************************************************************************** */
-
-typedef struct s_profile
-{
-	char	*name;
-	char	*school;
-	char	*languages;
-	char	*looking_for;
-	char	*focus;
-}	t_profile;
 
 static const t_profile	me =
 {
