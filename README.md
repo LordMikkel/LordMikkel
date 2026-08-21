@@ -30,7 +30,7 @@ static const char	*about[] =
 	"I am a 42 Barcelona student interested in security, AI and data.",
 	"I learn by building the thing myself, reading source code,",
 	"testing edge cases and writing down what I understood.",
-	"My background is practical: C projects, open source, data workflows,",
+	"My background is practical: C & Python projects, open source, data workflows,",
 	"custom AI models and technical workshops.",
 	NULL
 };
