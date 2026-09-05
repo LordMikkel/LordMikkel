@@ -18,7 +18,7 @@ static const t_profile	me =
 	.school = "Computer Science @ 42 Barcelona",
 	.languages = "C / C++ / Python / Bash",
 	.looking_for = "Internship or junior role",
-	.focus = "Cybersecurity research, applied AI and data"
+	.focus = "Cybersecurity & Artificial Intelligence"
 };
 
 /* ************************************************************************** */
@@ -27,7 +27,7 @@ static const t_profile	me =
 
 static const char	*about[] =
 {
-	"I am a 42 Barcelona student interested in security, AI and data.",
+	"I am a 42 Barcelona student interested in security & AI.",
 	"I learn by building the thing myself, reading source code,",
 	"testing edge cases and writing down what I understood.",
 	"My background is practical: C & Python projects, open source, data workflows,",
