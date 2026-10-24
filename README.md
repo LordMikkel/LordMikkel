@@ -26,11 +26,12 @@ static const t_profile	me =
 
 static const char	*whoami[] =
 {
-	"I am a 42 Barcelona student interested in security & AI.",
-	"I learn by building the thing myself, reading source code,",
-	"testing edge cases and writing down what I understood.",
-	"My background is practical: C & Python projects, open source, data workflows,",
-	"custom AI models and technical workshops.",
+	"I'm into security and AI, but my roots are in C:",
+	"a shell, threads, a raycaster and my own Linux distro.",
+	"I like sharing the guides I wish I'd had for these projects,",
+	"and on GitHub I also contribute to open source projects.",
+	"Now I'm working on a web server, an LLM jailbreak platform",
+	"and malware analysis through decompilation and ML.",
 	NULL
 };
 
