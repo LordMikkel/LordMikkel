@@ -2,21 +2,20 @@
 # `mikel_garrido.h`
 
 ```c
-
-#ifndef PROFILE_H
-# define PROFILE_H
+#ifndef MIKEL_GARRIDO_H
+# define MIKEL_GARRIDO_H
 
 # include "structs_data.h"
 
 /* ************************************************************************** */
-/*                                    Focus                                   */
+/*                                   Profile                                  */
 /* ************************************************************************** */
 
 static const t_profile	me =
 {
 	.name = "Mikel Garrido",
-	.school = "Computer Science @ 42 Barcelona",
-	.languages = "C / C++ / Python / Bash",
+	.studies = "Computer Science @ 42 Barcelona",
+	.traits = POLYMATH | RESEARCHER | AUTODIDACT,
 	.looking_for = "Internship or junior role",
 	.focus = "Cybersecurity & Artificial Intelligence"
 };
@@ -25,7 +24,7 @@ static const t_profile	me =
 /*                                   About                                    */
 /* ************************************************************************** */
 
-static const char	*about[] =
+static const char	*whoami[] =
 {
 	"I am a 42 Barcelona student interested in security & AI.",
 	"I learn by building the thing myself, reading source code,",
